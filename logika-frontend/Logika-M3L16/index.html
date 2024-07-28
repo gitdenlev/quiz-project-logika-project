@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>My Quiz</title>
+  </head>
+  <body>
+    <div class="info-container">
+      <p class="score animate__animated">Рахунок : <span id="score">0</span></p>
+      <p class="life animate__animated">Життів : <span id="life">3</span></p>
+    </div>
+
+    <div class="container">
+      <div class="question-block">
+        <h2 id="question">Скільки буде 2+2?</h2>
+      </div>
+      <div class="answer-block">
+        <label> <input type="radio" name="answer" value="3" /> 3 </label><br />
+        <label> <input type="radio" name="answer" value="4" /> 4 </label><br />
+        <label> <input type="radio" name="answer" value="5" /> 5 </label><br />
+        <label> <input type="radio" name="answer" value="6" /> 6 </label><br />
+      </div>
+      <div class="buttons-container">
+        <button id="submit">Відповісти</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
